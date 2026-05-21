@@ -317,7 +317,7 @@ export const foodItems: FoodItem[] = [
         "Seque bem",
         "Congele em porções"
       ],
-      duration: "Até 3 meses",
+      duration: "Até 6-8 meses",
       tips: [
         "-"
       ]
