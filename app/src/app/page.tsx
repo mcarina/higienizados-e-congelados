@@ -40,6 +40,7 @@ export default function Home() {
       legume: [],
       verdura: [],
       comida: [],
+      ervas: [],
     }
     
     filteredItems.forEach((item) => {
@@ -54,6 +55,8 @@ export default function Home() {
     legume: "Legumes",
     verdura: "Verduras",
     comida: "Comidas",
+    ervas: "ervas"
+    
   }
 
   const filterOptions: { value: FilterOption; label: string }[] = [
@@ -62,6 +65,8 @@ export default function Home() {
     { value: "legume", label: "Legumes" },
     { value: "verdura", label: "Verduras" },
     { value: "comida", label: "Comidas" },
+    { value: "ervas", label: "Ervas" },
+
   ]
 
   return (
@@ -132,7 +137,7 @@ export default function Home() {
           </div>
         ) : (
           <div className="space-y-10">
-            {(["fruta", "legume", "verdura", "comida"] as FoodCategory[]).map((category) => {
+            {(["fruta", "legume", "verdura", "comida", "ervas"] as FoodCategory[]).map((category) => {
               const items = groupedItems[category]
               if (items.length === 0) return null
               
