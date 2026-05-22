@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Filtros por categoria */}
+          {/* Filtros*/}
           <div className="flex flex-wrap gap-2 mt-4">
             {filterOptions.map((option) => (
               <Button
