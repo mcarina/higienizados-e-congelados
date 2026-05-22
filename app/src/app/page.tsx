@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Filtros*/}
+          {/* Filtrosj*/}
           <div className="flex flex-wrap gap-2 mt-4">
             {filterOptions.map((option) => (
               <Button
@@ -164,15 +164,38 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-card border-t border-border mt-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="text-center text-sm text-muted-foreground">
-            <p className="mb-2">
-              💡 <strong>Dica geral:</strong> Use 1 colher de sopa de hipoclorito de sódio (água sanitária própria para alimentos) 
-              para cada 1 litro de água na solução sanitizante.
-            </p>
-            <p>
-              Sempre enxágue bem os alimentos após o processo de sanitização.
-            </p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-between sm:text-left">
+            <div>
+              <p className="text-sm font-semibold text-card-foreground">Contato</p>
+              <p className="mt-2 text-xs text-muted-foreground max-w-xl">
+                Quer falar comigo sobre o projeto? Entre em contato comigo nos canais listados
+              </p>
+            </div>
+            <div className="space-y-2 text-sm">
+              <a
+                href="mailto:marciacarina931@gmail.com"
+                className="block text-primary hover:underline"
+              >
+                📥 marciacarina931@gmail.com
+              </a>
+              <a
+                href="https://linkedin.com/in/marcia-carina"
+                target="_blank"
+                rel="noreferrer"
+                className="block text-primary hover:underline"
+              >
+                💼 linkedin.com/in/marcia-carina
+              </a>
+              <a
+                href="https://github.com/mcarina"
+                target="_blank"
+                rel="noreferrer"
+                className="block text-primary hover:underline"
+              >
+                🐙 github.com/mcarina
+              </a>
+            </div>
           </div>
         </div>
       </footer>

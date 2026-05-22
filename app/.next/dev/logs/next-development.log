@@ -1,3 +1,11 @@
-{"timestamp":"00:00:01.230","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:02.898","source":"Browser","level":"ERROR","message":"[next-auth][error][CLIENT_FETCH_ERROR] \nhttps://next-auth.js.org/errors#client_fetch_error NetworkError when attempting to fetch resource. {\"error\":{\"message\":\"NetworkError when attempting to fetch resource.\",\"name\":\"TypeError\",\"stack\":\"\"},\"message\":\"NetworkError when attempting to fetch resource.\",\"url\":\"/api/auth/session\"}"}
-{"timestamp":"00:00:04.072","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:01.619","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:03.844","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:09.235","source":"Server","level":"LOG","message":"✓ Compiled in 821ms"}
+{"timestamp":"00:00:39.744","source":"Server","level":"LOG","message":"✓ Compiled in 97ms"}
+{"timestamp":"00:00:42.948","source":"Server","level":"LOG","message":"✓ Compiled in 95ms"}
+{"timestamp":"00:01:32.776","source":"Server","level":"LOG","message":"✓ Compiled in 63ms"}
+{"timestamp":"00:02:12.958","source":"Server","level":"LOG","message":"✓ Compiled in 97ms"}
+{"timestamp":"00:02:52.308","source":"Server","level":"LOG","message":"✓ Compiled in 89ms"}
+{"timestamp":"00:03:56.246","source":"Server","level":"LOG","message":"✓ Compiled in 200ms"}
+{"timestamp":"00:04:31.868","source":"Server","level":"LOG","message":"✓ Compiled in 54ms"}
+{"timestamp":"00:04:50.223","source":"Server","level":"LOG","message":"✓ Compiled in 62ms"}
