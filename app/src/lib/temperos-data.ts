@@ -1,4 +1,4 @@
-export type TemperoCategory = "temperos" | "misturas" | "dicas"
+export type TemperoCategory = "temperos" | "misturas"
 
 export interface TemperoItem {
   id: string
@@ -54,9 +54,7 @@ export const temperoItems: TemperoItem[] = [
     "Aqueça rapidamente em óleo ou azeite antes de adicionar outros ingredientes.",
     "Pode ser usado em pratos vegetarianos, especialmente com grão-de-bico, lentilha e batata.",
     "Experimente adicionar ao arroz para dar cor e aroma.",
-    "Evite cozinhar por tempo excessivo para não perder parte do aroma.",
-    "Nível de picância varia muito: nem todo curry é apimentado.",
-    "A cúrcuma é responsável pela cor amarela intensa"
+    "Evite cozinhar por tempo excessivo para não perder parte do aroma."
   ],
 },
 {
@@ -207,7 +205,7 @@ export const temperoItems: TemperoItem[] = [
 {
   id: "tempero-baiano",
   name: "Tempero Baiano",
-  category: "misturas",
+  category: "temperos",
   emoji: "🌶️",
   description: "Mistura tradicional de especiarias muito utilizada na culinária brasileira, especialmente na Bahia. Possui sabor marcante, levemente picante e aromático, geralmente combinando cúrcuma, cominho, pimenta, coentro e outras especiarias.",
   uses: [
@@ -353,7 +351,7 @@ export const temperoItems: TemperoItem[] = [
 {
   id: "ervas-finas",
   name: "Ervas Finas",
-  category: "misturas",
+  category: "temperos",
   emoji: "🌱",
   description: "Mistura aromática de ervas desidratadas, geralmente composta por orégano, manjericão, tomilho, alecrim, salsa e outras ervas. Muito utilizada para dar sabor e aroma a diversos pratos.",
   uses: [
@@ -379,6 +377,35 @@ export const temperoItems: TemperoItem[] = [
     "Pode ser adicionada ao pão de alho, manteigas temperadas e marinadas."
   ],
 },
+{
+  id: "folha-de-louro",
+  name: "Folha de Louro",
+  category: "temperos",
+  emoji: "🍃",
+  description: "O louro é utilizado na culinária há milhares de anos. Erva aromática muito utilizada em cozimentos longos. Possui aroma marcante e sabor levemente amadeirado e herbal, capaz de enriquecer caldos, feijões, carnes e ensopados.",
+  uses: [
+    "Feijão",
+    "Carnes",
+    "Ensopados",
+    "Sopas",
+    "Caldos",
+    "Molhos",
+    "Arroz"
+  ],
+  howToUse: [
+    "Adicione 1 ou 2 folhas durante o cozimento do prato.",
+    "Utilize em preparos de longa duração para liberar gradualmente o aroma.",
+    "Retire as folhas antes de servir.",
+    "Pode ser usado em marinadas para carnes e aves."
+  ],
+  storage: "Guarde em recipiente bem fechado, protegido da luz, calor e umidade. As folhas secas conservam suas propriedades por até 2 anos.",
+  tips: [
+    "Uma pequena quantidade já é suficiente para aromatizar a receita.",
+    "Combina muito bem com alho, cebola, pimenta-do-reino e tomilho.",
+    "É um ingrediente clássico no preparo de feijão.",
+    "Folhas inteiras são preferíveis, pois preservam melhor o aroma."
+  ],
+},
 // mistura
 {
   id: "tempero-rancheiro",
@@ -400,6 +427,24 @@ export const temperoItems: TemperoItem[] = [
   howToUse: ["Misture tudo", "Esfregue na carne 30 min antes de cozinhar"],
   storage: "Pote de vidro fechado, até 3 meses.",
   tips: ["Use com moderação, é um tempero forte", "Fica ótimo em frango assado também"],
+},
+{
+  id: "tempero-de-bisteca",
+  name: "Tempero de Bisteca Frita",
+  category: "misturas",
+  emoji: "🍖",
+  description: "Mistura de temperos para bisteca de frigideira.",
+  uses: ["Carnes bovinas"],
+  ingredients: [
+    "3 colheres de sopa de azeite", 
+    "1 colher de sopa de molho de alho", 
+    "sal a gosto", 
+    "1/4 pimenta dedo de moça amassado ou uma colher de chá de pimenta calabresa", 
+    "3 colheres de sopa de vinagre",
+  ],
+  howToUse: ["Misture tudo", "Passe na carne antes de levar a frigideira"],
+  storage: "",
+  tips: ["deixe escorrer todo o líquido da carne antes de levar à frigideira", "Raspe de leve a carne com uma faca sem dente", "Dê pequenos cortes nas laterais da carne para a ela não dobrar na panela" ],
 }
 
 ]
