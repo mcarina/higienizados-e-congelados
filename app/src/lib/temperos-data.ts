@@ -511,53 +511,53 @@ export const temperoItems: TemperoItem[] = [
     "A páprica defumada ajuda a criar uma cor dourada bonita."
   ]
 },
-{
-  id: "marinada-frango-festas",
-  name: "Marinada Especial para Frango Inteiro",
-  category: "misturas",
-  emoji: "🎄",
-  description: "Marinada cítrica e aromática para frango inteiro assado, ideal para ceias e ocasiões especiais.",
-  uses: [
-    "Frango inteiro",
-    "Frango de Natal",
-    "Frango assado"
-  ],
-  ingredients: [
-    "1 cebola grande",
-    "5 dentes de alho",
-    "Cheiro-verde a gosto",
-    "Suco de 2 laranjas",
-    "1 colher de sopa de páprica defumada",
-    "1 colher de sopa de lemon pepper",
-    "2 colheres de sopa de chimichurri sem pimenta",
-    "2 colheres de sopa de mostarda amarela",
-    "2 colheres de sopa de maionese",
-    "Azeite a gosto",
-    "Sal a gosto",
-    "Pimenta-do-reino a gosto"
-  ],
-  howToUse: [
-    "Bata todos os ingredientes no liquidificador ou processador até formar uma marinada homogênea.",
-    "Faça pequenas perfurações nas partes mais grossas do frango, principalmente na região do peito.",
-    "Espalhe a marinada por toda a ave",
-    "Coloque o frango em um saco culinário ou recipiente fechado.",
-    "Deixe marinar na geladeira por 12 a 24 horas.",
-    "Pré-aqueça o forno a 200°C antes levar ao forno",
-    "Para Assar, entre a pele e a carne do frango, espalhe manteiga temperada de sua preferência para deixar a carne mais suculenta e saborosa.",
-    "Se desejar, recheie o interior do frango com farofa antes de assar.",
-    "Cubra o frango com papel-alumínio e asse por aproximadamente 1 hora e 50 minutos.",
-    "Retire o papel-alumínio e pincele o frango com o caldo formado na assadeira.",
-    "Deixe dourar por cerca de 20 minutos ou mais, até atingir a cor desejada.",
-    "Se preferir uma douração mais uniforme, vire o frango, pincele novamente com o caldo da assadeira e deixe dourar por mais 20 minutos ou até ficar bem corado."
-  ],
-  storage: "A marinada deve ser utilizada imediatamente após o preparo. Após aplicada ao frango, conservar refrigerado por até 24 horas.",
-  tips: [
-    "Retire o frango da geladeira cerca de 30 minutos antes de assar.",
-    "Regue ocasionalmente com o caldo da assadeira durante o preparo.",
-    "A combinação de mostarda e maionese ajuda a formar uma pele mais dourada.",
-    "Quanto mais próximo das 24 horas de marinada, mais intenso será o sabor.",
-    "cubra as pontas das asas e coxas com papel-alumínio durante o cozimento para evitar que queimem antes do restante do frango estar cozido.",
-    "cuidado ao virar o frango, ele pode quebrar."
-  ]
-}
+// {
+//   id: "marinada-frango-festas",
+//   name: "Marinada Especial para Frango Inteiro",
+//   category: "misturas",
+//   emoji: "🎄",
+//   description: "Marinada cítrica e aromática para frango inteiro assado, ideal para ceias e ocasiões especiais.",
+//   uses: [
+//     "Frango inteiro",
+//     "Frango de Natal",
+//     "Frango assado"
+//   ],
+//   ingredients: [
+//     "1 cebola grande",
+//     "5 dentes de alho",
+//     "Cheiro-verde a gosto",
+//     "Suco de 2 laranjas",
+//     "1 colher de sopa de páprica defumada",
+//     "1 colher de sopa de lemon pepper",
+//     "2 colheres de sopa de chimichurri sem pimenta",
+//     "2 colheres de sopa de mostarda amarela",
+//     "2 colheres de sopa de maionese",
+//     "Azeite a gosto",
+//     "Sal a gosto",
+//     "Pimenta-do-reino a gosto"
+//   ],
+//   howToUse: [
+//     "Bata todos os ingredientes no liquidificador ou processador até formar uma marinada homogênea.",
+//     "Faça pequenas perfurações nas partes mais grossas do frango, principalmente na região do peito.",
+//     "Espalhe a marinada por toda a ave",
+//     "Coloque o frango em um saco culinário ou recipiente fechado.",
+//     "Deixe marinar na geladeira por 12 a 24 horas.",
+//     "Pré-aqueça o forno a 200°C antes levar ao forno",
+//     "Para Assar, entre a pele e a carne do frango, espalhe manteiga temperada de sua preferência para deixar a carne mais suculenta e saborosa.",
+//     "Se desejar, recheie o interior do frango com farofa antes de assar.",
+//     "Cubra o frango com papel-alumínio e asse por aproximadamente 1 hora e 50 minutos.",
+//     "Retire o papel-alumínio e pincele o frango com o caldo formado na assadeira.",
+//     "Deixe dourar por cerca de 20 minutos ou mais, até atingir a cor desejada.",
+//     "Se preferir uma douração mais uniforme, vire o frango, pincele novamente com o caldo da assadeira e deixe dourar por mais 20 minutos ou até ficar bem corado."
+//   ],
+//   storage: "A marinada deve ser utilizada imediatamente após o preparo. Após aplicada ao frango, conservar refrigerado por até 24 horas.",
+//   tips: [
+//     "Retire o frango da geladeira cerca de 30 minutos antes de assar.",
+//     "Regue ocasionalmente com o caldo da assadeira durante o preparo.",
+//     "A combinação de mostarda e maionese ajuda a formar uma pele mais dourada.",
+//     "Quanto mais próximo das 24 horas de marinada, mais intenso será o sabor.",
+//     "cubra as pontas das asas e coxas com papel-alumínio durante o cozimento para evitar que queimem antes do restante do frango estar cozido.",
+//     "cuidado ao virar o frango, ele pode quebrar."
+//   ]
+// }
 ]
