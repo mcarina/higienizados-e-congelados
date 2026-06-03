@@ -10,7 +10,7 @@ import { TemperoCard } from "@/components/tempero-card"
 import { Sidebar } from "@/components/sidebar"
 
 const FOOD_CATS: FoodCategory[] = ["fruta", "legume", "verdura", "comida", "ervas"]
-const TEMPERO_CATS: TemperoCategory[] = ["temperos", "misturas"]
+const TEMPERO_CATS: TemperoCategory[] = ["temperos", "misturas", "receitas"]
 
 type FilterOption = "todos" | FoodCategory | TemperoCategory
 
@@ -83,6 +83,7 @@ export default function Home() {
   const temperoLabels: Record<TemperoCategory, string> = {
     temperos: "Temperos",
     misturas: "Misturas",
+    receitas: "Receitas",
   };
 
   return (
@@ -202,7 +203,7 @@ export default function Home() {
               })}
 
               {/* Seção de temperos — NOVO */}
-              {(["temperos", "misturas", "dicas"] as TemperoCategory[]).map((category) => {
+              {(["temperos", "misturas", "receitas"] as TemperoCategory[]).map((category) => {
                 const items = filteredTemperos.filter((item) => item.category === category)
                 if (items.length === 0) return null
                 return (

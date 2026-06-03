@@ -24,6 +24,7 @@ const subCategories: { value: FoodCategory; label: string }[] = [
 const subArteDeTemperar: { value: TemperoCategory; label: string }[] = [
   { value: "temperos", label: "Tipos de Temperos" },
   { value: "misturas", label: "Misturas de Temperos" },
+  { value: "receitas", label: "Receitas bem temperadas" },
 ]
 
 export function Sidebar({ activeFilter, setActiveFilter }: SidebarProps) {
