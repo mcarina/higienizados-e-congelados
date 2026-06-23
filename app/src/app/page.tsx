@@ -8,6 +8,7 @@ import { TemperoCategory, temperoItems } from "@/lib/temperos-data"
 import { FoodCard } from "@/components/food-card"
 import { TemperoCard } from "@/components/tempero-card"
 import { Sidebar } from "@/components/sidebar"
+import Image from "next/image"
 
 const FOOD_CATS: FoodCategory[] = ["fruta", "legume", "verdura", "comida", "ervas"]
 const TEMPERO_CATS: TemperoCategory[] = ["temperos", "misturas", "receitas"]
@@ -102,8 +103,14 @@ export default function Home() {
                 <Menu className="h-5 w-5 text-card-foreground" />
               </button>
 
-              <div className="p-2 bg-primary rounded-xl">
-                <Leaf className="h-6 w-6 text-primary-foreground" />
+              <div className="p-2 rounded-xl">
+                <Image
+                  src="/abacaxi.png"
+                  alt="Logo"
+                  width={24}
+                  height={24}
+                  className="h-8 w-8"
+                />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-card-foreground text-balance">
